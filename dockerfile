@@ -12,9 +12,7 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm install 
-
-RUN npm install -g nodemon
+RUN npm install -g nodemon --save
 # Copiar los archivos de la aplicacion al contenedor
 COPY . .
 

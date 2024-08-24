@@ -6,9 +6,9 @@
     "start.dev": "nodemon -L index.js"
   },
   "dependencies": {
-    "//express": "^4.17.2"
+    "express": "^4.17.2"
   },
-  "//devDependencies": {
+  "devDependencies": {
     "nodemon": "^2.0.15"
   }
 }

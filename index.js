@@ -1,6 +1,5 @@
 var http = require('http'); // carga el modulo http
 
-
 http.createServer((request, response) => {
     // response.writeHead(200, {'Content-type' : 'text/html'}); // madna al navegador que la solicitud fue hecha correctamente y la respuesta es html
     // response.end('Hello world'); // informar al navegaodr que la respuesta fue enviada
@@ -23,5 +22,5 @@ var routes = {
     '/foo': function (request, response) {
         response.writeHead(200);
         response.end('Ruta foo');
-    }
+    },
 }
